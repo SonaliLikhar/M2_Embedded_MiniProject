@@ -10,8 +10,8 @@
 | 2 Design |Structural and Behavioral UML |
 | 3_Implementation	 |All the code written here |
 | 4_Simulation |Documents with test plan and output|
-  5_Report     |Generated Report|
-  6_Images And Videos|All the Images and project related Video|
-  7_Other|Other Information|
-  8_Source Code|Program execution code|
+| 5_Report     |Generated Report|
+| 6_TestPlan|All the Images and project related Video|
+| 7_Other|Other Information|
+ 
 

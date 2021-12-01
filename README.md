@@ -1,17 +1,18 @@
 
-# M2_Embedded_Seven-segment-display
+# M2_Embedded_Tempreture-controller
 
 
 ## FOLDER STRUCTURE
 
-| Folder          |       Discription                                               |
-| ----------------- | ------------------------------------------------------------------ |
-| 1_Requirements	 |Documents detailing requirements |
-| 2 Design |Structural and Behavioral UML |
-| 3_Implementation	 |All the code written here |
-| 4_Simulation |Documents with test plan and output|
-| 5_Report     |Generated Report|
-| 6_TestPlan|All the Images and project related Video|
-| 7_Other|Other Information|
- 
+|Folder             |	   Description|
+|---------------|------------------|
+|1_Requirementsimage|	Documents detailing requirements and researchimage|
+|2_Architectures	|Documents specifying design details|
+|3_Implementation	|All code and documentation|
+|4_TestPlanandOutput|	Outputs and Results after simulation|
+|5_Simulation|	SimulIDE Simaulation FIle|
+|6_Images and Videos	|Images, GIFS related to Outputs|
+
+
+
 

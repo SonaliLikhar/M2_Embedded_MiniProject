@@ -13,6 +13,14 @@ It is constructed using eight LEDs which are connected in sequential way so as t
 
 Seven segment displays are the output display device that provide a way to display information in the form of image or text or decimal numbers which is an alternative to the more complex dot matrix displays. It is widely used in digital clocks, basic calculators, electronic meters, and other electronic devices that display numerical information. It consists of seven segments of light emitting diodes (LEDs) which is assembled like numerical 8.
 
+## Software used
+SimulIDE
+
+GCC Compiler for AVR
+
+Code block
+
+
 ## SWOT Analysis
 
 1.Strengths- The push buttons occupy less room in any machines or switchboard •The buttons are a lot firmer and simpler to utilize

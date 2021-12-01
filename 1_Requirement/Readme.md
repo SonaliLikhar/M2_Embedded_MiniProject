@@ -1,50 +1,97 @@
 
-# M2_Embedded_Seven-segment-display
+# M2_Embedded_Tempreture-controller
 
-# Introduction
 
-## Seven Segment Display
+## Introduction
 
-Electronic display used for displaying alphanumeric character is known as 7-Segment display it is used in many systems for displaying the information.
+The heat control system is used to control the temperature of the car seat. When a person gets seated on a car, the button sensor will be activated. After that, the user gets access to turn ON the heater. The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller. The microcontroller processes the analog input of the temperature sensor and outputs a temperature value through serial communication. All the activities of the control system are done on a Atmega328 microcontroller.
 
-It is constructed using eight LEDs which are connected in sequential way so as to display digits from 0 to 9, when certain combinations of LEDs are switched on. It displays only one digit at a time.
+## Components used
 
-## State of Art/Research
+ATmega328 microcontroller 
 
-Seven segment displays are the output display device that provide a way to display information in the form of image or text or decimal numbers which is an alternative to the more complex dot matrix displays. It is widely used in digital clocks, basic calculators, electronic meters, and other electronic devices that display numerical information. It consists of seven segments of light emitting diodes (LEDs) which is assembled like numerical 8.
+temperature sensor (Potentiometer)
+
+Switches(button and heater)
+
+LED 
+
+LCD display
 
 ## Software used
+
 SimulIDE
 
 GCC Compiler for AVR
 
 Code block
 
+## Features
 
-## SWOT Analysis
+The System will be able to tell whether a person is seated or not.
 
-1.Strengths- The push buttons occupy less room in any machines or switchboard •The buttons are a lot firmer and simpler to utilize
+A person once seated gets the access to turn ON the heater.
 
-2.Weakness- Contacting the metal button switch also regularly can make its metal shrapnel lose its versatility and handicap the push on switch.
+The temperature sensor keeps monitoring the temperature and sends the analog value to the microcontroller.
 
-3.Opportunities- Push buttons are utilized in enterprises, inferable from the solace and wellbeing in a few modern and business applications and it helps the representatives to control various parts of a machine.
+## SWOT - Strengths, Weakness, Opportunities and Threats
 
-4.Threat-the push on switch can't produce works freely,and requires other PCB sheets to help out one another to frame a total switch control framework.
+### Strengths
 
-![image](https://user-images.githubusercontent.com/94156761/144072449-a38bf099-afa5-4dcb-ab8a-b2b719511fe6.png)
+Robust in nature 
+
+low cost
+
+Easily accessible by the any person
+
+High efficiency
+
+### Weakness
+
+This system can be used at low to moderate temperature.
+
+### Opportunities
+
+This system can be expanded by adding few more features depending on the user requirement. 
+
+### Threats
+
+This system cannot be used for very high temperature.
+
+## 4W's and 1H
+
+*What* - Heating control system in a vehicle
+
+*Where* - Used in almost all of the passenger vehicles
+
+*When* -  When temperature is low
+
+*Why* - To maintain body temperature
+
+*How* - By using sensors
+
+## Detail Requirements
+
+### High Level Requirements
 
 
-## 4W & 1H
+| **ID** | **Description** |
+| :- | :- |
+|HLR1|Microcontroller unit    |
+|HLR2|Switches|
+|HLR3|Temperature sensor|
+|HLR4|Heater|
+|HLR5|Display CDD CRO|
 
-1. WHO- 7-segment Displays can be used together to display digits from 0 to 9 as well as a few characters for use in acounting circuit or interfaced to a microcontroller.
-2. WHAT - The 7-segment display, also written as “seven segment display”, consists of seven LEDs (hence its name) arranged in a rectangular fashion as shown. Each of the seven               LEDs is called a segment because when illuminated the segment forms part of a numerical digit (both Decimal and Hex) to be displayed.
-3. WHEN - A seven-segment display is a form of electronic display device for displaying decimal numerals that is an alternative to the more complex dot matrix displays.
-4. WHERE - Seven-segment displays are widely used in digital clocks, electronic meters, basic calculators, and other electronic devices that display numerical information.
-5. HOW - first we will associate the 2 LEDs with PB2 and PB3 of PORTB of the microcontroller. A press button switch is then joined to PB0 pin and pulled-up utilizing a 10K                resistor. The excess terminal of the switch is grounded.
+### Low Level Requirements
 
 
-
-
+| **ID** | **Description** | **HLR ID** |
+| :- | :- | :- |
+|LLR1|ATMega328|HLR1|
+|LLR2|ADCand Potentiometer|HLR3|
+|LLR3|Thermo electric module|HLR4|
+|LLR4|LCD and LED, PWM|HLR5|
 
 
 

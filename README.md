@@ -13,9 +13,6 @@
 |5_Simulation|	SimulIDE Simaulation FIle|
 |6_Images and Videos	|Images, GIFS related to Outputs|
 
-[![Git Inspector](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml/badge.svg)](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml)
+[![Git Inspector](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml/badge.svg)](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml) | [![Code Quality Score](https://api.codiga.io/project/30287/score/svg) |[![Code Grade](https://api.codiga.io/project/30287/status/svg)  [![Unit Testing - Unity](https://github.com/Rajmane2507/M2_Embedded_MiniProject/actions/workflows/Unity.yml/badge.svg)](https://github.com/Rajmane2507/M2_Embedded_MiniProject/actions/workflows/Unity.yml) 
 
 
-[![Code Quality Score](https://api.codiga.io/project/30287/score/svg)
-
-[![Code Grade](https://api.codiga.io/project/30287/status/svg)

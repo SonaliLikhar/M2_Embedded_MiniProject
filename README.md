@@ -16,3 +16,6 @@
 [![Git Inspector](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml/badge.svg)](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml)
 
 
+[![Code Quality Score](https://api.codiga.io/project/30287/score/svg)
+
+[![Code Grade](https://api.codiga.io/project/30287/status/svg)

@@ -13,6 +13,6 @@
 |5_Simulation|	SimulIDE Simaulation FIle|
 |6_Images and Videos	|Images, GIFS related to Outputs|
 
-
+[![Git Inspector](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml/badge.svg)](https://github.com/SonaliLikhar/M2_Embedded_Seven-segment-display/actions/workflows/Git%20Inspector.yml)
 
 
